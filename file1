@@ -1,0 +1,31 @@
+Problem Statement 01:
+The IT Company "Soft ComInfo" has decided to transfer its messages through the N/W using new encryption technique. The company has decided to encrypt the data using the non-prime number concept. The message is in the form of a number and the sum of non-prime digits present in the message is used as the encryption key.Write a progam to print encryption key
+
+Input Format
+
+a number
+
+Constraints
+
+number should be greater than zero
+
+Output Format
+
+a number
+
+Sample Input 0
+
+3564
+Sample Output 0
+
+10
+
+Solution:
+num=input()
+nonprime=[0,1,4,6,8,9]
+prime_sum=0
+for digit in num:
+    digit=int(digit)
+    if digit in nonprime:
+        prime_sum+=digit
+print(prime_sum)
