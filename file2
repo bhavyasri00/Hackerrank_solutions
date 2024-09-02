@@ -1,0 +1,39 @@
+CHALLENGE 3:
+
+Write a program to find nearest greater paliandrome
+
+Input Format
+
+a number
+
+Constraints
+
+number should be greater than zero
+
+Output Format
+
+a number
+
+Sample Input 0
+
+700
+Sample Output 0
+
+707
+
+
+
+SOLUTION:
+
+
+num=int(input())
+if num <= 0:
+    print('mismatch number')
+else:
+    num+=1
+    while True:
+            num_str=str(num)
+            if num_str==num_str[::-1]:
+                print(num_str)
+                break
+            num+=1
