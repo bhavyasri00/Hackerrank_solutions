@@ -1,0 +1,179 @@
+Challenge6:
+
+
+There are 3 friends named Denver, Berlin, Rio who worked at a company. If we are Given thier monthly salaries and monthly expenditures, returns the highest saving amoung them.Input should be line separated 6integers, output should be highest saving amoung the 3 of them
+
+Input Format
+
+integers
+
+Constraints
+
+number should be greater than zero
+
+Output Format
+
+a number
+
+Sample Input 0
+
+10
+45
+10
+9
+10
+10
+Sample Output 0
+
+35
+
+
+Solution:
+
+
+Devin_salary=int(input())
+Berlin_salary=int(input())
+Rio_salary=int(input())
+devin_expen=int(input())
+berlin_expen=int(input())
+rio_expen=int(input())
+savings_D=Devin_salary-devin_expen
+savings_B=Berlin_salary-berlin_expen
+savings_R=Rio_salary-rio_expen
+if(savings_D>savings_B):
+    print(savings_D)
+elif(savings_B>savings_R):
+    print(savings_B)
+else:
+    print(savings_R)
+
+
+ Challenge7:
+
+Given two integer values, return whichever value is nearest to the value 10, or return 0 in the event of a tie.
+
+Input Format
+
+two integer values
+
+Constraints
+
+number should be greater than zero
+
+Output Format
+
+a number
+
+Sample Input 0
+
+6
+7
+Sample Output 0
+
+7
+
+
+SOLUTION:
+
+n1 = int(input())
+n2 = int(input())
+
+if n1 > 0 and n2 > 0:
+    diff1 = abs(n1 - 10)
+    diff2 = abs(n2 - 10)
+
+    if diff1 < diff2:
+        print(n1)
+    elif diff2 < diff1:
+        print(n2)
+    else:
+        print(0)
+else:
+    print("Both numbers should be greater than zero")
+
+
+
+Challenge8:
+
+We'll say that a number is "teen" if it is in the range 13..19 inclusive. Given 3 int values, return true if 1 or more of them are teen.
+
+Input Format
+
+13 14 15
+
+Constraints
+
+a number should be greater than zero
+
+Output Format
+
+True
+
+Sample Input 0
+
+13
+14
+15
+Sample Output 0
+
+True
+
+SOLUTION:
+
+
+num1=int(input())
+num2=int(input())
+num3=int(input())
+if num1 >0 and num2>0 and num3>0:
+    numbers=[num1,num2,num3]
+    is_teen=False
+    for num in numbers:
+        if 13<= num <=19:
+            is_teen=True
+            break
+    if is_teen:
+        print("True")
+    else:
+        print("False")
+else:
+    print("the number should be greater than zero")
+
+
+
+Challenge9:
+
+Rahul's teacher gave an assignment to all the student that when they show up tomorrow they should find a special type of number and report her. He thought very carefully and came up with an idea to have neon numbers. A neon number is a two digit number where the square of the sum of each digit of the number results in the given number.Given an integer N, Write a programto find whether the number N is a Neon number.
+
+Input Format
+
+an integer number
+
+Constraints
+
+number should be greater than zero
+
+Output Format
+
+true or false
+
+Sample Input 0
+
+81
+Sample Output 0
+
+True
+
+
+SOLUTION:
+
+
+num=int(input())
+a=num//10 #to extract tens place.
+b=num%10 #to extract units place
+sum=a+b
+square=sum*sum
+if square==num:
+    print("True")
+else:
+    print("False")
+
