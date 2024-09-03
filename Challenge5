@@ -1,0 +1,34 @@
+Problem Statement:
+
+Given two non-negative integer values, return true if they have the same last digit, Ex:27 and 57.
+
+Input Format
+
+a non negative number
+
+Constraints
+
+number should be greater than zero
+
+Output Format
+
+True or False
+
+Sample Input 0
+
+27
+57
+Sample Output 0
+
+True
+
+
+SOLUTION:
+
+
+num1=int(input())
+num2=int(input())
+if num1%10==num2%10:
+    print("True")
+else:
+    print("False")
