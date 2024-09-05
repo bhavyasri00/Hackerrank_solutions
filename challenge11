@@ -1,0 +1,62 @@
+PROBLEM STATEMENT:
+
+Currently government is taking lot of measures to control the spread of Coronavirus. As we have vaccine now, many campaigns are done to vaccination. Health dept is identifying the people in each area and recommended/vaccination of them. They are planning three stages
+
+stage1: above 60 years
+
+stage2: between 18 and 60
+
+stage3: below 18 years
+
+Implement a program to read date of birth of the person and decide he belong to which stage.
+
+Input Format
+
+date of birth (yyyy)
+
+Constraints
+
+non negative values
+
+Output Format
+
+1 or 2 or 3
+
+Sample Input 0
+
+1992
+Sample Output 0
+
+2
+
+
+SOLUTION:
+
+Currently government is taking lot of measures to control the spread of Coronavirus. As we have vaccine now, many campaigns are done to vaccination. Health dept is identifying the people in each area and recommended/vaccination of them. They are planning three stages
+
+stage1: above 60 years
+
+stage2: between 18 and 60
+
+stage3: below 18 years
+
+Implement a program to read date of birth of the person and decide he belong to which stage.
+
+Input Format
+
+date of birth (yyyy)
+
+Constraints
+
+non negative values
+
+Output Format
+
+1 or 2 or 3
+
+Sample Input 0
+
+1992
+Sample Output 0
+
+2
